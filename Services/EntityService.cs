@@ -43,8 +43,7 @@ namespace EventLogin.Services
 
         public async Task Delete(Guid id)
         {
-            var entityDelete =  this.ApplicationDbContext.Set<TEntity>().Find(id);
-            this.ApplicationDbContext.Set<TEntity>().Remove(entityDelete);
+            this.ApplicationDbContext.Set<TEntity>().Remove(await GetById(id));
             await this.ApplicationDbContext.SaveChangesAsync();
         }
     }
