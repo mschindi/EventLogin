@@ -12,7 +12,6 @@ namespace EventLogin.Controllers
     public class EventController : Controller
     {
         private readonly IEventService eventService;
-
         public EventController(IEventService eventService)
         {
             this.eventService = eventService;
