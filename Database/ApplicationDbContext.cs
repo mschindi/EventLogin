@@ -1,4 +1,5 @@
 using EventLogin.Entities;
+using EventLogin.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace EventLogin.Database
@@ -9,6 +10,9 @@ namespace EventLogin.Database
             : base(options)
         {
         }
+        
+        // the dbset propterty will tell ef core that we habe a table that needs to be created id doesnt exist
+        public virtual DbSet<User> Users { get; set; }
         
         public DbSet<UserEntity> User { get; set; }
         public DbSet<EventEntity> Event { get; set; }

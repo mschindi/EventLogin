@@ -6,10 +6,12 @@
 /Users/michaelschindezow/projects/EventLogin/EventLogin/bin/Debug/net5.0/EventLogin.dll
 /Users/michaelschindezow/projects/EventLogin/EventLogin/bin/Debug/net5.0/ref/EventLogin.dll
 /Users/michaelschindezow/projects/EventLogin/EventLogin/bin/Debug/net5.0/EventLogin.pdb
+/Users/michaelschindezow/projects/EventLogin/EventLogin/bin/Debug/net5.0/Humanizer.dll
 /Users/michaelschindezow/projects/EventLogin/EventLogin/bin/Debug/net5.0/Microsoft.Data.Sqlite.dll
 /Users/michaelschindezow/projects/EventLogin/EventLogin/bin/Debug/net5.0/Microsoft.DotNet.PlatformAbstractions.dll
 /Users/michaelschindezow/projects/EventLogin/EventLogin/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
 /Users/michaelschindezow/projects/EventLogin/EventLogin/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/michaelschindezow/projects/EventLogin/EventLogin/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
 /Users/michaelschindezow/projects/EventLogin/EventLogin/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/michaelschindezow/projects/EventLogin/EventLogin/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Sqlite.dll
 /Users/michaelschindezow/projects/EventLogin/EventLogin/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
@@ -52,5 +54,3 @@
 /Users/michaelschindezow/projects/EventLogin/EventLogin/obj/Debug/net5.0/ref/EventLogin.dll
 /Users/michaelschindezow/projects/EventLogin/EventLogin/obj/Debug/net5.0/EventLogin.pdb
 /Users/michaelschindezow/projects/EventLogin/EventLogin/obj/Debug/net5.0/EventLogin.genruntimeconfig.cache
-/Users/michaelschindezow/projects/EventLogin/EventLogin/bin/Debug/net5.0/Humanizer.dll
-/Users/michaelschindezow/projects/EventLogin/EventLogin/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll

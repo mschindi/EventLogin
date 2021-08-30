@@ -4,7 +4,6 @@ using EventLogin.Entities;
 using EventLogin.Interfaces;
 using EventLogin.Services;
 using Microsoft.AspNetCore.Mvc;
-
 namespace EventLogin.Controllers
 {
     [ApiController]

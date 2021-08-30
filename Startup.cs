@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EventLogin.CoreRepositories.IConfiguration;
 using EventLogin.Database;
 using EventLogin.Interfaces;
 using EventLogin.Services;
@@ -38,6 +39,9 @@ namespace EventLogin
             });
             services.AddScoped(typeof(IEventService), typeof(EventService));
             services.AddScoped(typeof(IEntityService<>), typeof(EntityService<>));
+            
+            // Adding the Unit of Work to the Dependency Injection Container
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
